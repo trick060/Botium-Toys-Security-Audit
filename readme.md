@@ -22,40 +22,36 @@ The scope of this audit encompasses the entire security program at Botium Toys, 
 
 ## Control Categories
 
-### Administrative/Managerial Controls
+### **Administrative/Managerial Controls**
 
-| Control Name                     | Control Type | Control Purpose                                                                                      |
-|----------------------------------|--------------|------------------------------------------------------------------------------------------------------|
-| Least Privilege                  | Preventative | Reduce risk and overall impact of malicious insider or compromised accounts                         |
-| Disaster Recovery Plans           | Corrective   | Provide business continuity                                                                           |
-| Password Policies                 | Preventative | Reduce likelihood of account compromise through brute force or dictionary attack techniques          |
-| Access Control Policies           | Preventative | Bolster confidentiality and integrity by defining which groups can access or modify data            |
-| Account Management Policies       | Preventative | Manage account lifecycle, reducing attack surface, and limiting overall impact from disgruntled former employees and default account usage |
-| Separation of Duties              | Preventative | Reduce risk and overall impact of malicious insider or compromised accounts                         |
+| Control Name                      | Control Type   | Control Purpose  |
+|------------------------------------|---------------|-----------------|
+| Least Privilege                   | Preventative  | Limits employee access to only necessary data, reducing unauthorized access to cardholder data and PII/SPII. |
+| Disaster Recovery Plans            | Corrective    | Establishes recovery procedures for critical data, minimizing data loss and downtime. |
+| Password Policies                  | Preventative  | Enforces strong password requirements to enhance security. |
+| Access Control Policies            | Preventative  | Implements least privilege and separation of duties to restrict unnecessary access. |
+| Centralized Password Management    | Preventative  | Reduces password recovery/reset issues and improves policy enforcement. |
+| Compliance & Privacy Policies      | Preventative  | Ensures adherence to data protection laws and privacy standards, including notification of E.U. customers in case of a breach. |
 
-### Technical Controls
+### **Technical Controls**
 
-| Control Name                     | Control Type | Control Purpose                                                                                      |
-|----------------------------------|--------------|------------------------------------------------------------------------------------------------------|
-| Firewall                          | Preventative | Filter unwanted or malicious traffic from entering the network                                       |
-| IDS/IPS                           | Detective    | Detect and prevent anomalous traffic that matches a signature or rule                                 |
-| Encryption                        | Deterrent    | Provide confidentiality to sensitive information                                                     |
-| Backups                           | Corrective   | Restore/recover from an event                                                                         |
-| Password Management               | Preventative | Reduce password fatigue                                                                               |
-| Antivirus (AV) Software          | Preventative | Scan to detect and quarantine known threats                                                          |
-| Manual Monitoring, Maintenance, and Intervention | Preventative | Identify and manage threats, risks, or vulnerabilities to out-of-date systems                       |
+| Control Name                  | Control Type   | Control Purpose  |
+|--------------------------------|---------------|-----------------|
+| Firewall                      | Preventative  | Blocks unauthorized network traffic based on security rules. |
+| IDS (Intrusion Detection System) | Detective  | Detects malicious activity on the network (currently not installed). |
+| Encryption                    | Deterrent     | Protects confidentiality of customer credit card data during processing and storage. |
+| Backups                       | Corrective    | Ensures recovery of critical data in case of data loss (currently not implemented). |
+| Antivirus Software            | Preventative  | Detects and removes malware threats, ensuring endpoint security. |
+| Legacy System Monitoring      | Preventative  | Reduces risks associated with outdated systems through regular maintenance and intervention. |
 
-### Physical/Operational Controls
+### **Physical/Operational Controls**
 
-| Control Name                     | Control Type          | Control Purpose                                                                                      |
-|----------------------------------|-----------------------|------------------------------------------------------------------------------------------------------|
-| Time-Controlled Safe             | Deterrent             | Reduce attack surface and overall impact from physical threats                                       |
-| Adequate Lighting                | Deterrent             | Deter threats by limiting “hiding” places                                                            |
-| Closed-Circuit Television (CCTV) | Preventative/Detective | Reduce risk of certain types of events from occurring and inform on event conditions after an event |
-| Locking Cabinets (for Network Gear) | Preventative       | Bolster integrity by preventing unauthorized personnel from physically accessing or modifying network infrastructure gear |
-| Signage Indicating Alarm Service Provider | Deterrent    | Deter certain types of threats by making the likelihood of a successful attack seem low             |
-| Locks                            | Deterrent/Preventative | Bolster integrity by deterring and preventing unauthorized personnel from physically accessing assets  |
-| Fire Detection and Prevention (Fire Alarm, Sprinkler System, etc.) | Detective/Preventative | Detect fire in physical location and prevent damage to physical assets such as inventory, servers, etc. |
+| Control Name                  | Control Type          | Control Purpose  |
+|--------------------------------|----------------------|-----------------|
+| CCTV Surveillance             | Preventative/Detective | Monitors physical premises to prevent and investigate unauthorized access. |
+| Locks                         | Deterrent/Preventative | Secures main offices, storefront, and warehouse to prevent unauthorized entry. |
+| Fire Detection & Prevention   | Detective/Preventative | Protects assets and personnel by detecting and mitigating fire hazards. |
+
 
 ## Recommendations
 
