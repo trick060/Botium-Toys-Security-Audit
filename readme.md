@@ -1,19 +1,22 @@
 # Botium Toys Cybersecurity Audit Report
 
 ## Scenario
+
 The scope of this audit encompasses the entire security program at Botium Toys, including their assets such as employee equipment and devices, internal network, and systems. The goals are to assess existing assets and complete the controls and compliance checklist to identify necessary improvements to Botium Toys’ security posture.
 
 ### Current Assets
-- On-premises equipment for in-office business needs
-- Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
-- Storefront products available for retail sale on-site and online; stored in the company’s adjoining warehouse
-- Management of systems, software, and services: accounting, telecommunication, database, security, e-commerce, and inventory management
-- Internet access
-- Internal network
-- Data retention and storage
-- Legacy system maintenance
+
+- **On-premises equipment** for in-office business needs
+- **Employee equipment**: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
+- **Storefront products** available for retail sale on-site and online; stored in the company’s adjoining warehouse
+- **Management of systems, software, and services**: accounting, telecommunication, database, security, e-commerce, and inventory management
+- **Internet access**
+- **Internal network**
+- **Data retention and storage**
+- **Legacy system maintenance**
 
 ### Risk Assessment
+
 - **Risk Score**: 8 (on a scale of 1 to 10)
 - **Risk Description**: Inadequate management of assets and lack of proper controls.
 
@@ -35,7 +38,7 @@ The scope of this audit encompasses the entire security program at Botium Toys, 
 | Control Name                     | Control Type | Control Purpose                                                                                      |
 |----------------------------------|--------------|------------------------------------------------------------------------------------------------------|
 | Firewall                          | Preventative | Filter unwanted or malicious traffic from entering the network                                       |
-| IDS/IPS                           | Detective     | Detect and prevent anomalous traffic that matches a signature or rule                                 |
+| IDS/IPS                           | Detective    | Detect and prevent anomalous traffic that matches a signature or rule                                 |
 | Encryption                        | Deterrent    | Provide confidentiality to sensitive information                                                     |
 | Backups                           | Corrective   | Restore/recover from an event                                                                         |
 | Password Management               | Preventative | Reduce password fatigue                                                                               |
@@ -80,11 +83,12 @@ To address the security issues identified in the audit, I recommend the followin
 
 By implementing these recommendations, Botium Toys can significantly enhance its security posture and mitigate risks to its assets.
 
+---
 
-# Stakeholder Memorandum
+# I.T Manager Memorandum
 
-**TO**: IT Manager, Stakeholders  
-**FROM**: John Patrick Anteola
+**TO**: IT Manager
+**FROM**: John Patrick Anteola  
 **DATE**: 27/03/2025  
 **SUBJECT**: Internal IT Audit Findings and Recommendations
 
@@ -97,6 +101,7 @@ I am writing to share important insights regarding the findings from the recent 
 ## Scope of the Audit
 
 The audit encompassed several key systems, specifically focusing on:
+
 - Accounting
 - Endpoint Detection
 - Firewalls
@@ -104,6 +109,7 @@ The audit encompassed several key systems, specifically focusing on:
 - Security Information and Event Management (SIEM) tool
 
 The evaluation criteria include:
+
 - Current user permissions for accessing systems and data
 - Existing implemented controls
 - Current procedures and protocols
@@ -113,6 +119,7 @@ The evaluation criteria include:
 ## Goals of the Audit
 
 The primary objectives of the audit are as follows:
+
 - Adhere to the NIST Cybersecurity Framework (CSF)
 - Establish a more efficient process to ensure compliance across systems
 - Fortify existing system controls
@@ -122,6 +129,7 @@ The primary objectives of the audit are as follows:
 ## Critical Findings (Immediate Attention Required)
 
 The audit revealed several critical areas that require immediate action:
+
 - **Principle of Least Privilege and Separation of Duties**: Essential for reducing risk and enhancing security.
 - **Disaster Recovery Plans**: These plans are vital for maintaining business continuity in the face of disruptions.
 - **Password, Access Control, and Account Management Policies**: Must be established to safeguard user accounts and sensitive information.
@@ -137,12 +145,14 @@ The audit revealed several critical areas that require immediate action:
 ## Policy Development Recommendations
 
 Policies must be developed and implemented to ensure compliance with:
+
 - PCI DSS and GDPR requirements
 - SOC1 and SOC2 guidelines related to user access policies and overall data safety
 
 ## Additional Findings (Future Considerations)
 
 While not immediately urgent, the following physical controls should be evaluated for future implementation:
+
 - **Time-Controlled Safe**: To secure sensitive physical assets.
 - **Adequate Lighting**: Enhances security by minimizing hidden areas.
 - **Signage Indicating Alarm Service Provider**: Acts as a deterrent for potential threats in restricted areas.
@@ -159,10 +169,10 @@ To enhance the security of Botium Toys’ physical location, implementing locks 
 
 Thank you for your attention to these important matters.
 
-Best regards,
-
+Best regards,  
 John Patrick Anteola
 
+---
 
 ## Conclusion
 
@@ -175,6 +185,3 @@ Reflecting on this process, I believe I successfully identified the top priority
 ### Lessons Learned
 
 Throughout this audit, I encountered challenges in articulating my findings within the stakeholder memorandum. I learned the importance of being concise and direct, utilizing lists for clarity, and ensuring my writing is proofread to avoid redundancy. Additionally, I recognized the need to clearly explain how System and Organization Controls standards relate to user access policies, confidentiality, privacy, integrity, availability, security, and overall data safety, beyond mere financial compliance.
-
----
-
