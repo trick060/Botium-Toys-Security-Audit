@@ -1,21 +1,84 @@
 # Botium Toys Cybersecurity Audit Report
 
-## Scenario Overview
-The objective of this audit is to evaluate the complete security framework at Botium Toys. This includes a thorough examination of all assets, which encompass employee equipment, devices, the internal network, and various systems utilized by the organization. The primary goals are to assess the current state of these assets and to complete a comprehensive control and compliance checklist, identifying areas that require enhancements to bolster Botium Toys’ security posture.
+## Scenario
+The scope of this audit encompasses the entire security program at Botium Toys, including their assets such as employee equipment and devices, internal network, and systems. The goals are to assess existing assets and complete the controls and compliance checklist to identify necessary improvements to Botium Toys’ security posture.
 
-### Current Assets Under Management
-- **On-Premises Equipment**: Includes all hardware and devices essential for in-office operations.
-- **Employee Equipment**: Encompasses end-user devices such as desktops, laptops, smartphones, remote workstations, and peripherals like headsets, keyboards, mice, and docking stations.
-- **Storefront Products**: Both retail products available for purchase on-site and online, stored in the adjacent warehouse for distribution.
-- **Management Systems**: Software and services related to accounting, telecommunications, databases, security, e-commerce, and inventory management.
-- **Internet Access**: All internet connectivity measures supporting operations.
-- **Internal Network**: The framework that connects all internal devices and systems.
-- **Data Retention and Storage**: Policies and practices governing data storage and retention.
-- **Legacy System Maintenance**: Processes in place for managing end-of-life systems that require active human oversight.
+### Current Assets
+- On-premises equipment for in-office business needs
+- Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
+- Storefront products available for retail sale on-site and online; stored in the company’s adjoining warehouse
+- Management of systems, software, and services: accounting, telecommunication, database, security, e-commerce, and inventory management
+- Internet access
+- Internal network
+- Data retention and storage
+- Legacy system maintenance
 
-### Risk Assessment Summary
-- **Risk Score**: 8 (on a scale of 1 to 10), indicating a relatively high level of risk.
-- **Risk Description**: The organization
+### Risk Assessment
+- **Risk Score**: 8 (on a scale of 1 to 10)
+- **Risk Description**: Inadequate management of assets and lack of proper controls.
+
+## Control Categories
+
+### Administrative/Managerial Controls
+
+| Control Name                     | Control Type | Control Purpose                                                                                      |
+|----------------------------------|--------------|------------------------------------------------------------------------------------------------------|
+| Least Privilege                  | Preventative | Reduce risk and overall impact of malicious insider or compromised accounts                         |
+| Disaster Recovery Plans           | Corrective   | Provide business continuity                                                                           |
+| Password Policies                 | Preventative | Reduce likelihood of account compromise through brute force or dictionary attack techniques          |
+| Access Control Policies           | Preventative | Bolster confidentiality and integrity by defining which groups can access or modify data            |
+| Account Management Policies       | Preventative | Manage account lifecycle, reducing attack surface, and limiting overall impact from disgruntled former employees and default account usage |
+| Separation of Duties              | Preventative | Reduce risk and overall impact of malicious insider or compromised accounts                         |
+
+### Technical Controls
+
+| Control Name                     | Control Type | Control Purpose                                                                                      |
+|----------------------------------|--------------|------------------------------------------------------------------------------------------------------|
+| Firewall                          | Preventative | Filter unwanted or malicious traffic from entering the network                                       |
+| IDS/IPS                           | Detective     | Detect and prevent anomalous traffic that matches a signature or rule                                 |
+| Encryption                        | Deterrent    | Provide confidentiality to sensitive information                                                     |
+| Backups                           | Corrective   | Restore/recover from an event                                                                         |
+| Password Management               | Preventative | Reduce password fatigue                                                                               |
+| Antivirus (AV) Software          | Preventative | Scan to detect and quarantine known threats                                                          |
+| Manual Monitoring, Maintenance, and Intervention | Preventative | Identify and manage threats, risks, or vulnerabilities to out-of-date systems                       |
+
+### Physical/Operational Controls
+
+| Control Name                     | Control Type          | Control Purpose                                                                                      |
+|----------------------------------|-----------------------|------------------------------------------------------------------------------------------------------|
+| Time-Controlled Safe             | Deterrent             | Reduce attack surface and overall impact from physical threats                                       |
+| Adequate Lighting                | Deterrent             | Deter threats by limiting “hiding” places                                                            |
+| Closed-Circuit Television (CCTV) | Preventative/Detective | Reduce risk of certain types of events from occurring and inform on event conditions after an event |
+| Locking Cabinets (for Network Gear) | Preventative       | Bolster integrity by preventing unauthorized personnel from physically accessing or modifying network infrastructure gear |
+| Signage Indicating Alarm Service Provider | Deterrent    | Deter certain types of threats by making the likelihood of a successful attack seem low             |
+| Locks                            | Deterrent/Preventative | Bolster integrity by deterring and preventing unauthorized personnel from physically accessing assets  |
+| Fire Detection and Prevention (Fire Alarm, Sprinkler System, etc.) | Detective/Preventative | Detect fire in physical location and prevent damage to physical assets such as inventory, servers, etc. |
+
+## Recommendations
+
+To address the security issues identified in the audit, I recommend the following actions for the IT department at Botium Toys:
+
+1. **Asset Identification and Management**: Conduct a comprehensive inventory and classification of all assets to prioritize security measures.
+   
+2. **Access Control Enhancements**: Implement least privilege access and establish separation of duties to minimize risks.
+
+3. **Data Encryption**: Encrypt sensitive data, including credit card information and PII, both at rest and in transit.
+
+4. **Intrusion Detection and Prevention**: Install an IDS to monitor and respond to suspicious activities effectively.
+
+5. **Disaster Recovery and Backup Plans**: Develop a disaster recovery plan and implement regular data backups to ensure business continuity.
+
+6. **Password Policy and Management**: Revise the password policy for stronger requirements and utilize a centralized password management system.
+
+7. **Regular Security Audits and Assessments**: Schedule periodic security audits and engage in penetration testing to identify and address vulnerabilities.
+
+8. **Employee Training and Awareness**: Implement ongoing security awareness training and establish a clear incident reporting mechanism.
+
+9. **Compliance with Regulations**: Review and adopt relevant compliance frameworks and maintain documentation of all compliance efforts.
+
+10. **Monitoring and Continuous Improvement**: Consider setting up a Security Operations Center (SOC) and foster a culture of continuous improvement in security practices.
+
+By implementing these recommendations, Botium Toys can significantly enhance its security posture and mitigate risks to its assets.
 
 
 # Stakeholder Memorandum
