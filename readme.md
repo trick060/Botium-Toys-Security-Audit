@@ -157,6 +157,13 @@ Incorporating an IDS and effective AV software will enhance our capability to de
 
 To enhance the security of Botium Toys’ physical location, implementing locks and CCTV will safeguard physical assets and provide monitoring against potential threats. The introduction of a time-controlled safe, ensuring adequate lighting, and providing clear signage indicating alarm service providers will further strengthen our overall security posture.
 
+Thank you for your attention to these important matters.
+
+Best regards,
+
+John Patrick Anteola
+
+
 ## Conclusion
 
 This memorandum summarizes the findings and recommendations from the internal audit. I hope you find this information both useful and insightful. I welcome any constructive feedback or suggestions for improvement.
@@ -171,8 +178,3 @@ Throughout this audit, I encountered challenges in articulating my findings with
 
 ---
 
-Thank you for your attention to these important matters.
-
-Best regards,
-
-John Patrick Anteola
